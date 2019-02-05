@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0px solid red;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    width: 1280px;
+    margin: 0 auto;
+}
+header {
+    width: 1280px;
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(255,255,255,0.85);
+}
+h1 {
+    margin: 20px 0 20px 175px;
+    display: inline-block;
+    font-size: 41px;
+}
+.graff {
+    color: #000000;
+}
+.pink {
+    color: #B73958;
+}
+.navigation {
+    float: right;
+    margin: 35px 150px 20px 0;
+}
+.navigation span p {
+    color: #454545;
+    font-size: 17px;
+    margin-right: 25px;
+    display: inline-block;
+}
+.button {
+    background-color: #DE6D6E;
+    border: 0px solid red;
+    border-radius: 3px;
+    width: 90px;
+    height: 30px;
+    display: inline-block;
+}
+.button .login {
+    margin: 3px 0 0 15px;
+    background: url(../images/login.png) 0 5px no-repeat;
+    padding-left: 20px;
+    color: #FFFFFF;
+    font-size: 17px;
+}
+.banner {
+    overflow: visible;
+    background: url(../images/bg.png) 0 0 no-repeat;
+    height: 590px;
+    position: relative;
+}
+.banner h2 {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 69px;
+    margin-top: 385px;
+    margin-left: 310px;
+    text-shadow: 2px 0px 1px black;
+}
+.banner h3 {
+    position: absolute;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-top: 475px;
+    margin-left: 430px;
+    text-shadow: 2px 0px 1px black;
+}
+.block2 h4 {
+    font-size: 35px;
+    color: #404040;
+    text-align: center;
+    margin-top: 60px;
+}
+.block2 p {
+    font-size: 17px;
+    color: #636363;
+    margin: 10px auto 0 auto;
+    width: 830px;
+    text-align: center;
+}
+.tickets {
+    display: inline-block;
+    position: relative;
+    width: 180px;
+    height: 180px;
+    background-color: #4EB9F4;
+    border: 0px solid black;
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-left: 160px;
+}
+.tickets img {
+    display: inline-block;
+    position: absolute;
+    margin: 42px 0 0 50px;
+    width: 80px;
+    height: 82px;
+}
+.tickets p {
+    position: absolute;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    left: 65px;
+    top: 130px;
+}
+.camera {
+    display: inline-block;
+    position: relative;
+    width: 180px;
+    height: 180px;
+    background-color: #6FC125;
+    border: 0px solid black;
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-left: 75px;
+}
+.camera img {
+    display: inline-block;
+    position: absolute;
+    margin: 53px 0 0 50px;
+    width: 80px;
+    height: 70px;
+}
+.camera p {
+    position: absolute;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    left: 60px;
+    top: 130px;
+}
+.beermug {
+    display: inline-block;
+    position: relative;
+    width: 180px;
+    height: 180px;
+    background-color: #FF5649;
+    border: 0px solid black;
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-left: 75px;
+}
+.beermug img {
+    display: inline-block;
+    position: absolute;
+    margin: 40px 0 0 65px;
+    width: 68px;
+    height: 85px;
+}
+.beermug p {
+    position: absolute;
+    display: inline-block;
+    color: #FF8278;
+    font-size: 17px;
+    left: 75px;
+    top: 130px;
+}
+.beermug span {
+    position: absolute;
+    width: 135px;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 23px;
+    line-height: 14px;
+}
+.devices {
+    display: inline-block;
+    position: relative;
+    width: 180px;
+    height: 180px;
+    background-color: #E48F23;
+    border: 0px solid black;
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-left: 75px;
+}
+.devices img {
+    display: inline-block;
+    position: absolute;
+    margin: 42px 0 0 50px;
+    width: 80px;
+    height: 82px;
+}
+.devices p {
+    position: absolute;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    left: 65px;
+    top: 130px;
+}
+.hr1 {
+    height: 1px;
+    color: #E9E9E9;
+    background-color: #E9E9E9;
+    border: none;
+    margin-top: 50px;
+}
+.hr2 {
+    height: 1px;
+    color: #F2F2F2;
+    background-color: #F2F2F2;
+    border: none;
+}
+.hr3 {
+    height: 1px;
+    color: #F8F8F8;
+    background-color: #F8F8F8;
+    border: none;
+    margin-bottom: 45px;
+}
+.photo {
+    margin-left: 190px;
+    margin-bottom: 80px;
+}
+.photo img {
+    margin-top: 3px;
+    float: left;
+    width: 199px;
+    height: 132px;
+    margin-right: 20px;
+}
+.photo h4 {
+    display: inline-block;
+    color: #404040;
+    font-size: 27px;
+    vertical-align: top;
+}
+.photo p {
+    display: inline-block;
+    color: #8B8B8B;
+    font-size: 15px;
+    line-height: 22px;
+    vertical-align: top;
+    width: 750px;
+    margin-top: 10px;
+}
+footer {
+    padding: 35px 0 35px 0;
+    background: url(../images/botbg.png) 0 0;
+}
+.bottom-block1 {
+    margin-left: 190px;
+    display: inline-block;
+}
+.bottom-block1 h5 {
+    color: #AEAEAE;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+.bottom-block1 li {
+    list-style-type: none;
+    color: #8B8B8B;
+    font-size: 15px;
+    line-height: 22px;
+    padding-left: 3px;
+}
+.bottom-block2 {
+    margin-left: 90px;
+    margin-right: 70px;
+    display: inline-block;
+}
+.bottom-block2 h5 {
+    color: #AEAEAE;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+.bottom-block2 li {
+    list-style-type: none;
+    color: #8B8B8B;
+    font-size: 15px;
+    line-height: 22px;
+    padding-left: 3px;
+}
+.bottom-block3 {
+    margin-right: 70px;
+    display: inline-block;
+}
+.bottom-block3 h5 {
+    color: #AEAEAE;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+.bottom-block3 li {
+    list-style-type: none;
+    color: #8B8B8B;
+    font-size: 15px;
+    line-height: 22px;
+    padding-left: 3px;
+}
+.bottom-block4 {
+    display: inline-block;
+    margin-right: 45px;
+}
+.bottom-block4 h5 {
+    color: #AEAEAE;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+.bottom-block4 li {
+    list-style-type: none;
+    color: #8B8B8B;
+    font-size: 15px;
+    line-height: 22px;
+    padding-left: 3px;
+}
+.images {
+    vertical-align: top;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.images img {
+    margin-right: 20px;
+}
+.copyright {
+    margin-top: 20px;
+    color: #8B8B8B;
+    font-size: 15px;
+}

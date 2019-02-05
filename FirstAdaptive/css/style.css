@@ -1,0 +1,75 @@
+* {
+    outline: 0px solid red;
+    color: #445162;
+    font-size: 14px;
+    font-family: 'Arial';
+}
+.white-rect {
+    height: 216px;
+    background-color: #FFF;
+}
+.sect1 {
+    background-color: #445162;
+    color: #FFF;
+    padding: 50px;
+}
+.sect1 h1 {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.sect1 ul {
+    margin-top: 20px;
+    padding-left: 4px;
+    line-height: 36px;
+    font-size: 16px;
+}
+.sect1 ul li {
+    color: #FFFFFF;
+    list-style-image: url(../images/checkicon.png);
+    list-style-position: inside;
+}
+.sect2 {
+    padding: 50px;
+    color: #445161;
+}
+.blue-rect {
+    height: 240px;
+    background-color: #445162;
+}
+.rect2 p {
+    font-size: 14px;
+}
+.sect3 {
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+.sect3 h2 {
+    margin-bottom: 35px;
+}
+.sect3 ul {
+    padding-left: 0;
+}
+.sect3 ul li {
+    list-style-type: none;
+    list-style-position: inside;
+    background: url(../images/plus_i.png) 0 0 no-repeat;
+    padding-left: 40px;
+}
+@media (max-width: 991px) {
+    .sect1 h1 {
+        text-align: center;
+    }
+    .sect1 ul {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .sect2 .blue-rect {
+        margin-top: 30px;
+    }
+    .sect2 h2 {
+        text-align: center;
+    }
+    .sect2 p {
+        text-align: center;
+    }
+}
