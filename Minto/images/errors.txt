@@ -1,0 +1,3 @@
+[2019-01-24 20:07:23] layer "      ": Expected Either a default asset specification or a layer asset specification but " " found.
+[2019-01-24 20:07:23] layer "A minimal Web Design  from cssauthor.com": Unsupported extension: com
+[2019-01-24 20:07:23] layer "Shape 6.png": Duplicate path: Shape 6.png
